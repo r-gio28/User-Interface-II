@@ -41,3 +41,52 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
+
+        /*universal selector*/
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        max-width:100%;
+        border:1px solid grey;
+    }
+    html{
+        font-size:62.5%;
+    }
+    body{
+        font-size:1.8rem;
+        line-height: 1.5;
+        color:#4F4F4F;
+        font-family: 'PT Sans', sans-serif;
+        background-color:#FFFAFA;
+    }
+
+        /*begin styling of header*/
+    header{
+        padding:20px;
+        background-color: lightgrey;
+        margin-bottom: 25px;
+    }
+        /*top section*/
+       #topContainer{
+            display:flex;
+            justify-content:space-evenly;
+        }
+        .topLeftPhoto{
+            width:50%;
+        }
+        
+        /*body pic sections*/
+        #projectPics{
+            display: flex;
+            justify-content: flex-start;
+            
+        }
+        #projectPics div{
+            margin-left: 5%;
+        }
+        .bodyPics img{
+            width: 30%;
+            
+        }
+        /*footer*/
